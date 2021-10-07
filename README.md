@@ -70,6 +70,11 @@ If you are new to Python, the easiest way of installing the prerequisites is via
 ## Usage
 - The Usage of the CGCNN model and how to reparing the data for the model trainning, please take this github as reference:https://github.com/txie-93/cgcnn
 - predict the transfer learning model for other metal-ion battery electrodes prediction.
+Here take the model for the Na-ion battery electrode voltages as an example
+python main_Na_2Lin.py --train-ratio 0.6 --val-ratio 0.2 --test-ratio 0.2 data/std_15
+- use the trained model to do prediciton.
+here we build a web tool: http://batteries.2dmatpedia.org/
+or do the prediction as that in the CGCNN model
 
 
 ## Author
