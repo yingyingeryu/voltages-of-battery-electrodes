@@ -21,9 +21,9 @@ from sklearn import metrics
 from torch.autograd import Variable
 from torch.optim.lr_scheduler import MultiStepLR
 
-from data import CIFData
-from data import collate_pool, get_train_val_test_loader
-from model import CrystalGraphConvNet
+from cgcnn.data import CIFData
+from cgcnn.data import collate_pool, get_train_val_test_loader
+from cgcnn.model import CrystalGraphConvNet
 
 
 # In[ ]:
