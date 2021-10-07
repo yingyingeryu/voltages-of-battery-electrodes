@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[ ]:
-
-
 # %load main.py
 import argparse
 import os
@@ -21,13 +18,9 @@ from sklearn import metrics
 from torch.autograd import Variable
 from torch.optim.lr_scheduler import MultiStepLR
 
-from data import CIFData
-from data import collate_pool, get_train_val_test_loader
-from model import CrystalGraphConvNet
-
-
-# In[ ]:
-
+from cgcnn.data import CIFData
+from cgcnn.data import collate_pool, get_train_val_test_loader
+from cgcnn.model import CrystalGraphConvNet
 
 parser = argparse.ArgumentParser(description='Crystal Graph Convolutional Neural Networks')
 parser.add_argument('data_options', metavar='OPTIONS', nargs='+',
@@ -93,17 +86,10 @@ args = parser.parse_args(sys.argv[1:])
 
 args.cuda = not args.disable_cuda and torch.cuda.is_available()
 
-
-# In[ ]:
-
-
 if args.task == 'regression':
     best_mae_error = 1e10
 else:
     best_mae_error = 0.
-
-
-# In[ ]:
 
 
 def load_checkpoint(model, checkpoint, optimizer, loadOptimizer):
