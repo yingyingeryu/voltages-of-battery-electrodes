@@ -21,13 +21,9 @@ from sklearn import metrics
 from torch.autograd import Variable
 from torch.optim.lr_scheduler import MultiStepLR
 
-from data import CIFData
-from data import collate_pool, get_train_val_test_loader
-from model import CrystalGraphConvNet
-
-
-# In[ ]:
-
+from cgcnn.data import CIFData
+from cgcnn.data import collate_pool, get_train_val_test_loader
+from cgcnn.model import CrystalGraphConvNet
 
 parser = argparse.ArgumentParser(description='Crystal Graph Convolutional Neural Networks')
 parser.add_argument('data_options', metavar='OPTIONS', nargs='+',
@@ -93,17 +89,10 @@ args = parser.parse_args(sys.argv[1:])
 
 args.cuda = not args.disable_cuda and torch.cuda.is_available()
 
-
-# In[ ]:
-
-
 if args.task == 'regression':
     best_mae_error = 1e10
 else:
     best_mae_error = 0.
-
-
-# In[ ]:
 
 
 def load_checkpoint(model, checkpoint, optimizer, loadOptimizer):
@@ -128,10 +117,6 @@ def load_checkpoint(model, checkpoint, optimizer, loadOptimizer):
     else:
         print('No checkpoint is included')
     return model, optimizer
-
-
-# In[ ]:
-
 
 def main():
     global args, best_mae_error
@@ -260,10 +245,6 @@ def main():
     model.load_state_dict(best_checkpoint['state_dict'])
     validate(val_loader, model, criterion, normalizer, test=True)
 
-
-# In[ ]:
-
-
 def train(train_loader, model, criterion, optimizer, epoch, normalizer):
     batch_time = AverageMeter()
     data_time = AverageMeter()
@@ -357,10 +338,6 @@ def train(train_loader, model, criterion, optimizer, epoch, normalizer):
                     prec=precisions, recall=recalls, f1=fscores,
                     auc=auc_scores)
                 )
-
-
-# In[ ]:
-
 
 def validate(val_loader, model, criterion, normalizer, test=False):
     batch_time = AverageMeter()
@@ -481,10 +458,6 @@ def validate(val_loader, model, criterion, normalizer, test=False):
                                                  auc=auc_scores))
         return auc_scores.avg
 
-
-# In[ ]:
-
-
 class Normalizer(object):
     """Normalize a Tensor and restore it later. """
 
@@ -507,10 +480,6 @@ class Normalizer(object):
         self.mean = state_dict['mean']
         self.std = state_dict['std']
 
-
-# In[ ]:
-
-
 def mae(prediction, target):
     """
     Computes the mean absolute error between prediction and target
@@ -522,9 +491,6 @@ def mae(prediction, target):
     target: torch.Tensor (N, 1)
     """
     return torch.mean(torch.abs(target - prediction))
-
-
-# In[ ]:
 
 
 def class_eval(prediction, target):
@@ -542,9 +508,6 @@ def class_eval(prediction, target):
     else:
         raise NotImplementedError
     return accuracy, precision, recall, fscore, auc_score
-
-
-# In[ ]:
 
 
 class AverageMeter(object):
@@ -565,18 +528,10 @@ class AverageMeter(object):
         self.count += n
         self.avg = self.sum / self.count
 
-
-# In[ ]:
-
-
 def save_checkpoint(state, is_best, filename='checkpoint_Na.pth.tar'):
     torch.save(state, filename)
     if is_best:
         shutil.copyfile(filename, 'model_best_Al.pth.tar')
-
-
-# In[ ]:
-
 
 def adjust_learning_rate(optimizer, epoch, k):
     """Sets the learning rate to the initial LR decayed by 10 every k epochs"""
@@ -588,10 +543,4 @@ def adjust_learning_rate(optimizer, epoch, k):
 
 if __name__ == '__main__':
     main()
-
-
-# In[ ]:
-
-
-
 
