@@ -1,0 +1,48 @@
+# generated using pymatgen
+data_NaGePCO7
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.98222415
+_cell_length_b   6.32589300
+_cell_length_c   5.13098859
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   87.31266628
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaGePCO7
+_chemical_formula_sum   'Na2 Ge2 P2 C2 O14'
+_cell_volume   291.22516976
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.225194  0.477862  0.237793  1
+  Na  Na1  1  0.774806  0.977862  0.762207  1
+  Ge  Ge2  1  0.339096  0.764330  0.783243  1
+  Ge  Ge3  1  0.660904  0.264330  0.216757  1
+  P  P4  1  0.435320  0.255179  0.727061  1
+  P  P5  1  0.564680  0.755179  0.272939  1
+  C  C6  1  0.079633  0.743734  0.724269  1
+  C  C7  1  0.920367  0.243734  0.275731  1
+  O  O8  1  0.054789  0.241058  0.309511  1
+  O  O9  1  0.143870  0.748653  0.955621  1
+  O  O10  1  0.188205  0.744223  0.531165  1
+  O  O11  1  0.334247  0.063408  0.786916  1
+  O  O12  1  0.338798  0.449462  0.797647  1
+  O  O13  1  0.420809  0.746684  0.118876  1
+  O  O14  1  0.481171  0.263255  0.428236  1
+  O  O15  1  0.518829  0.763255  0.571764  1
+  O  O16  1  0.579191  0.246684  0.881124  1
+  O  O17  1  0.661202  0.949462  0.202353  1
+  O  O18  1  0.665753  0.563408  0.213084  1
+  O  O19  1  0.811795  0.244223  0.468835  1
+  O  O20  1  0.856130  0.248653  0.044379  1
+  O  O21  1  0.945211  0.741058  0.690489  1

@@ -1,0 +1,58 @@
+# generated using pymatgen
+data_CuO
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.71910000
+_cell_length_b   5.71910000
+_cell_length_c   12.40140000
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CuO
+_chemical_formula_sum   'Cu16 O16'
+_cell_volume   405.62629099
+_cell_formula_units_Z   16
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cu  Cu0  1  0.005290  0.750000  0.994910  1
+  Cu  Cu1  1  0.250000  0.505290  0.505090  1
+  Cu  Cu2  1  0.250000  0.994710  0.505090  1
+  Cu  Cu3  1  0.494710  0.750000  0.994910  1
+  Cu  Cu4  1  0.505290  0.250000  0.005090  1
+  Cu  Cu5  1  0.750000  0.005290  0.494910  1
+  Cu  Cu6  1  0.750000  0.494710  0.494910  1
+  Cu  Cu7  1  0.994710  0.250000  0.005090  1
+  Cu  Cu8  1  0.000430  0.750000  0.344290  1
+  Cu  Cu9  1  0.250000  0.500430  0.155710  1
+  Cu  Cu10  1  0.250000  0.999570  0.155710  1
+  Cu  Cu11  1  0.499570  0.750000  0.344290  1
+  Cu  Cu12  1  0.500430  0.250000  0.655710  1
+  Cu  Cu13  1  0.750000  0.000430  0.844290  1
+  Cu  Cu14  1  0.750000  0.499570  0.844290  1
+  Cu  Cu15  1  0.999570  0.250000  0.655710  1
+  O  O16  1  0.011200  0.250000  0.155150  1
+  O  O17  1  0.012800  0.750000  0.143650  1
+  O  O18  1  0.250000  0.011200  0.655150  1
+  O  O19  1  0.250000  0.488800  0.655150  1
+  O  O20  1  0.250000  0.512800  0.356350  1
+  O  O21  1  0.250000  0.987200  0.356350  1
+  O  O22  1  0.487200  0.750000  0.143650  1
+  O  O23  1  0.488800  0.250000  0.155150  1
+  O  O24  1  0.511200  0.750000  0.844850  1
+  O  O25  1  0.512800  0.250000  0.856350  1
+  O  O26  1  0.750000  0.988800  0.344850  1
+  O  O27  1  0.750000  0.511200  0.344850  1
+  O  O28  1  0.750000  0.012800  0.643650  1
+  O  O29  1  0.750000  0.487200  0.643650  1
+  O  O30  1  0.987200  0.250000  0.856350  1
+  O  O31  1  0.988800  0.750000  0.844850  1

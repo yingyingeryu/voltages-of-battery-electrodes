@@ -1,0 +1,48 @@
+# generated using pymatgen
+data_NaCoCSO7
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.92635469
+_cell_length_b   6.64796903
+_cell_length_c   5.16521661
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   87.97389882
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaCoCSO7
+_chemical_formula_sum   'Na2 Co2 C2 S2 O14'
+_cell_volume   306.32332769
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.231151  0.480367  0.233962  1
+  Na  Na1  1  0.768849  0.980367  0.766038  1
+  Co  Co2  1  0.341866  0.764200  0.782527  1
+  Co  Co3  1  0.658134  0.264200  0.217473  1
+  C  C4  1  0.081310  0.742431  0.724565  1
+  C  C5  1  0.918690  0.242431  0.275435  1
+  S  S6  1  0.427802  0.254387  0.722796  1
+  S  S7  1  0.572198  0.754387  0.277204  1
+  O  O8  1  0.054089  0.246127  0.308100  1
+  O  O9  1  0.148025  0.745778  0.948764  1
+  O  O10  1  0.188747  0.738888  0.538524  1
+  O  O11  1  0.332482  0.076965  0.778715  1
+  O  O12  1  0.341498  0.435901  0.804237  1
+  O  O13  1  0.427031  0.743758  0.137701  1
+  O  O14  1  0.465351  0.269046  0.435477  1
+  O  O15  1  0.534649  0.769046  0.564523  1
+  O  O16  1  0.572969  0.243758  0.862299  1
+  O  O17  1  0.658502  0.935901  0.195763  1
+  O  O18  1  0.667518  0.576965  0.221285  1
+  O  O19  1  0.811253  0.238888  0.461476  1
+  O  O20  1  0.851975  0.245778  0.051236  1
+  O  O21  1  0.945911  0.746127  0.691900  1

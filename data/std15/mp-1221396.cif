@@ -1,0 +1,33 @@
+# generated using pymatgen
+data_Na(NbSe2)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.39593390
+_cell_length_b   3.39593300
+_cell_length_c   14.98774900
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   59.99999904
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Na(NbSe2)2
+_chemical_formula_sum   'Na1 Nb2 Se4'
+_cell_volume   149.68744677
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.666600  0.666700  0.000900  1
+  Nb  Nb1  1  0.333400  0.333300  0.750000  1
+  Nb  Nb2  1  0.666600  0.666700  0.250000  1
+  Se  Se3  1  0.000000  0.000000  0.858170  1
+  Se  Se4  1  0.000000  0.000000  0.141830  1
+  Se  Se5  1  0.000000  0.000000  0.358170  1
+  Se  Se6  1  0.000000  0.000000  0.641830  1

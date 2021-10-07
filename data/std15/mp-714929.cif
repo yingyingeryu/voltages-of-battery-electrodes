@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_CrO2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   2.72169321
+_cell_length_b   8.60220722
+_cell_length_c   2.64951190
+_cell_angle_alpha   89.73608464
+_cell_angle_beta   119.76718438
+_cell_angle_gamma   99.14846467
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CrO2
+_chemical_formula_sum   'Cr2 O4'
+_cell_volume   52.96148943
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cr  Cr0  1  0.493341  0.746433  0.235911  1
+  Cr  Cr1  1  0.514961  0.253063  0.758609  1
+  O  O2  1  0.777618  0.150543  0.380887  1
+  O  O3  1  0.752720  0.643485  0.871952  1
+  O  O4  1  0.251312  0.355556  0.134249  1
+  O  O5  1  0.233787  0.849510  0.601903  1
