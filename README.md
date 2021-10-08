@@ -4,11 +4,13 @@ Using the CGCNN transfer learning model to pridict the voltages of Li, Na, K, Mg
 The package provides all the files that are used in the article of "Accurately predicting voltage of electrode materials in metal-ion batteries using interpretable
  deep transfer learning"
  
+ The CGCNN model are provided by the Xie Tian et.al (https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.120.145301). They also provide their model in github (http://github.com/txie-93/cgcnn).
+ 
 ## Table of Contents
 
 - [How to cite](#how-to-cite)
 - [Prerequisites](#prerequisites)
-- [Files](#Files)
+- [Files introduction](#Files-introduction)
   - [CGCNN]
   - [CGCNN_visulization]
   - [Transfer_learning]
@@ -38,22 +40,10 @@ Please cite the following work if you want to use this model.
   url = {}
 }
 ```
+The work of the CGCNN model is also suggest to cite when use this model.
 
 ```
-@article{PhysRevLett.120.145301,
-  title = {Crystal Graph Convolutional Neural Networks for an Accurate and Interpretable Prediction of Material Properties},
-  author = {Xie, Tian and Grossman, Jeffrey C.},
-  journal = {Phys. Rev. Lett.},
-  volume = {120},
-  issue = {14},
-  pages = {145301},
-  numpages = {6},
-  year = {2018},
-  month = {Apr},
-  publisher = {American Physical Society},
-  doi = {10.1103/PhysRevLett.120.145301},
-  url = {https://link.aps.org/doi/10.1103/PhysRevLett.120.145301}
-}
+url={https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.120.145301}
 ```
 
 ##  Prerequisites
@@ -67,11 +57,13 @@ This package requires:
 
 If you are new to Python, the easiest way of installing the prerequisites is via [conda](https://conda.io/docs/index.html). After installing [conda](http://conda.pydata.org/), run the following command to create a new [environment](https://conda.io/docs/user-guide/tasks/manage-environments.html) named `cgcnn` and install all prerequisites.
 
-## Files
+## Files introduction
 - CGCNN folder
 
 The files in this folder just the same as the correspoiding files in the CGCNN model that Xie Tian et.al gives (http://github.com/txie-93/cgcnn).
+
 We used files in this folder to train the model for the voltage prediction of Li-ion battery electrodes.
+
 - CGCNN_visulization
 
 The files in this folder are used to have a visulization of the CGCNN model. 
@@ -80,7 +72,8 @@ The embedding_features.py is to visulize the features from the embedding layer i
 
 The local_voltage_plt.py is to visulize the local voltages, which are obtained after the three convelutional layers.
 
-The element_features.csv and OMO_local.csv are the data files that are used in the embedding_features.py and local_voltage_plt.py respectively. The element_features_csv.py and OMO_local_csv.py are the coresponding codes to get the two csv data files. 
+The element_features.csv and OMO_local.csv are the data files that are used in the embedding_features.py and local_voltage_plt.py respectively. 
+The element_features_csv.py and OMO_local_csv.py are the coresponding codes to get the two csv data files. 
 
 The other files in this folder are the usefull files in the embedding_features.py and the local_voltage_plt.py. 
 - Transfer_learning
@@ -89,7 +82,9 @@ The files in this folder are the main file for the model training for the predic
 - Trained_model
 
 Here are the trained models for the voltage predictions of the corresponding metal-ion battery electrodes.
-The model_best.pth file is trained on Li-ion battery electrodes dataset. It can be used for the Li-ion battery electrode voltage prediction. It also used to predict the voltages for the Rb and Cs-ion battery electrodes.
+
+The model_best.pth file is trained on Li-ion battery electrodes dataset. It can be used for the Li-ion battery electrode voltage prediction. 
+It also used to predict the voltages for the Rb and Cs-ion battery electrodes.
 
 The model_best_Na.pth file is trained on Na-ion battery electrodes dataset and also used for the Na-ion battery electrode voltage prediction.
 
