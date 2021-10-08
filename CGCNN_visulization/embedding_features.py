@@ -16,9 +16,9 @@ from torch.utils.data import DataLoader
 
 import sys
 sys.path.append('../')
-from cgcnn.data_pre import CIFData
-from cgcnn.data_pre import collate_pool
-from cgcnn.model_pre import CrystalGraphConvNet
+from data_pre import CIFData
+from data_pre import collate_pool
+from model_pre import CrystalGraphConvNet
 
 modelpath='../trained_model/model_best.pth.tar'  # we need a model to product features in every layers
 

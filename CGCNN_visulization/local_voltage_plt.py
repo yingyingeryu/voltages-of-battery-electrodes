@@ -4,15 +4,15 @@
 import sys
 sys.path.append('../')
 
-from cgcnn.local_voltage import LocalEnergy
-from cgcnn.main_local_vol import  Normalizer
-from cgcnn.data_local_vol import collate_pool_local
+from local_voltage import LocalEnergy
+from main_local_vol import  Normalizer
+from data_local_vol import collate_pool_local
 from torch.utils.data import DataLoader
-from cgcnn.data_local_vol import CGCNNdata
+from data_local_vol import CGCNNdata
 
-from cgcnn.data_pre import CIFData
-from cgcnn.data_pre import collate_pool
-from cgcnn.model_pre import CrystalGraphConvNet
+from data_pre import CIFData
+from data_pre import collate_pool
+from model_pre import CrystalGraphConvNet
 
 
 import numpy as np
