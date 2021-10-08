@@ -108,6 +108,7 @@ This folder contains the required data for the model training and the correspond
 Here are the SVR (Supporting Vector Regression), KRR (Kernel Ridge Regression), and RFR (Random Forest Regression) models that are used in our work. 
 
 ## Web-tool
-A convenient web tool has been built for the voltage prediction of all the metal-ion battery electrodes.
+A convenient web tool has been built for the voltage prediction of all the metal-ion battery electrodes. 
+http://batteries.2dmatpedia.org/
 
 
