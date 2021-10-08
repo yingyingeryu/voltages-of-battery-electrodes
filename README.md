@@ -90,13 +90,21 @@ The files in this folder are the main file for the model training for the predic
 
 Here are the trained models for the voltage predictions of the corresponding metal-ion battery electrodes.
 The model_best.pth file is trained on Li-ion battery electrodes dataset. It can be used for the Li-ion battery electrode voltage prediction. It also used to predict the voltages for the Rb and Cs-ion battery electrodes.
+
 The model_best_Na.pth file is trained on Na-ion battery electrodes dataset and also used for the Na-ion battery electrode voltage prediction.
+
 The model_best_K.pth file is trained on K-ion battery electrodes dataset and also used for the K-ion battery electrode voltage prediction.
+
 The model_best_Mg.pth file is trained on Mg-ion battery electrodes dataset and also used for the Mg-ion battery electrode voltage prediction.
+
 The model_best_Ca.pth file is trained on Ca-ion battery electrodes dataset and also used for the Ca-ion battery electrode voltage prediction.
+
 The model_best_Zn.pth file is trained on Zn-ion battery electrodes dataset and also used for the Zn-ion battery electrode voltage prediction.
+
 The model_best_Y.pth file is trained on Y-ion battery electrodes dataset and also used for the Y-ion battery electrode voltage prediction.
+
 The model_best_Al.pth file is trained on Al-ion battery electrodes dataset and also used for the Al-ion battery electrode voltage prediction.
+
 - data
 
 This folder contains the required data for the model training and the coresponding code to get these data files.
