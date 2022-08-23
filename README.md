@@ -25,7 +25,7 @@ The package provides all the files that are used in the article of "Accurately p
 Please cite the following work if you want to use this model.
 
 ```
-@article{PhysRevLett.120.145301,
+@article{npj Comput. Mater. 8, 175 (2022),
   title = {Interpretable Learning of Voltage for Electrode Design of Multivalent Metal-ion Batteries},
   author = {Zhang Xiuying, Zhou Jun, Lv Jing, and Shen Lei},
   journal = {npj Comput. Mater.},
