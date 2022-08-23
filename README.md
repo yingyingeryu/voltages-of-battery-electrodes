@@ -30,12 +30,12 @@ Please cite the following work if you want to use this model.
   author = {Zhang Xiuying, Zhou Jun, Lv Jing, and Shen Lei},
   journal = {npj Comput. Mater.},
   volume = {8},
-  issue = {175},
-  pages = {},
-  numpages = {},
+  issue = {1},
+  pages = {175},
+  numpages = {8},
   year = {2022},
-  month = {},
-  publisher = {},
+  month = {August},
+  publisher = {Springer Nature},
   doi = {10.1038/s41524-022-00858-9},
   url = {http://www.nature.com/articles/s41524-022-00858-9}
 }
